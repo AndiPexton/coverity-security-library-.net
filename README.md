@@ -1,4 +1,6 @@
-# Coverity Security Library (.NET Version)
+# Coverity Security Library (.NET Standard Fork)
+
+Original .Net Repository for [Coverity.Security](https://github.com/coverity/coverity-security-library-.net/
 
 The Coverity Security Library (CSL) is a lightweight set of escaping routines for fixing cross-site scripting (XSS), SQL injection, and other security defects in ASP.NET web applications.
 
@@ -18,11 +20,11 @@ To contact the Coverity Security Research Labs (SRL), please email us at <srl@co
 
 ## Escape
 
-The [Coverity.Security.Escape class](https://github.com/coverity/coverity-security-library-.net/tree/develop/Coverity.Security/Coverity.Security) contains several escapers for web content. These escaping functions help remedy common defects (mostly cross-site scripting) that occur when the data is inserted into HTML element, HTML attribute values, URI, JavaScript strings, SQL LIKE clauses, etc. 
+The [Coverity.Security.Escape class](https://github.com/AndiPexton/coverity-security-library-.net/tree/dotNetStandard/Coverity.Security/Coverity.Security) contains several escapers for web content. These escaping functions help remedy common defects (mostly cross-site scripting) that occur when the data is inserted into HTML element, HTML attribute values, URI, JavaScript strings, SQL LIKE clauses, etc. 
 
-Before using any of these methods, you should understand the context (or nested contexts) in which the data is inserted. [An example](https://github.com/coverity/coverity-security-library-.net/tree/develop/Coverity.Security/Coverity.Security.Example/) is available in the repository, and more will be available on [our blog](https://communities.coverity.com/blogs/security).
+Before using any of these methods, you should understand the context (or nested contexts) in which the data is inserted. [An example](https://github.com/coverity/coverity-security-library-.net/tree/develop/Coverity.Security/Coverity.Security.Example/) is available in the original repository, and more will be available on [our blog](https://www.synopsys.com/blogs/software-security/web-application-security-testing-coverity/).
  
-If you want to test the library to understand how it whistands security attacks, our [functional testsuite](https://github.com/coverity/coverity-security-library-.net/tree/develop/Coverity.Security/Coverity.Security.Tests) is the right app to build/deploy/test.
+If you want to test the library to understand how it whistands security attacks, our [functional testsuite](https://github.com/AndiPexton/coverity-security-library-.net/tree/dotNetStandard/Coverity.Security/Tests) is the right app to build/deploy/test.
 
 Ready to use it?  Fork away, we look forward to your pull requests!
 

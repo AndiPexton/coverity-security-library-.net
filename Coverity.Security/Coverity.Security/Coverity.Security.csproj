@@ -5,12 +5,12 @@
     <Copyright>Copyright (c) 2012-2015, Coverity, Inc.</Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>coverity.png</PackageIcon>
-    <RepositoryUrl>https://github.com/coverity/coverity-security-library-.net</RepositoryUrl>
-    <Company>Coverity</Company>
-    <Authors>Coverity</Authors>
+    <RepositoryUrl>https://github.com/AndiPexton/coverity-security-library-.net</RepositoryUrl>
+    <Company>Synopsys / Coverity</Company>
+    <Authors>Andi Pexton</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Description># Coverity Security Library (.NET Version)
+    <Description># Coverity Security Library (.NET Standard 2.1 Version)
 
 The Coverity Security Library (CSL) is a lightweight set of escaping routines for fixing cross-site scripting (XSS), SQL injection, and other security defects in ASP.NET web applications.
 
@@ -27,6 +27,8 @@ Here's why it's worth checking out:
 Users of Coverity Security Advisor get remediation guidance based on escaping routines in CSL.  However, CSL is a standalone project with no dependencies on Security Advisor.
 
 To contact the Coverity Security Research Labs (SRL), please email us at &lt;srl@coverity.com&gt;.</Description>
+    <Product>Coverity Security Library</Product>
+    <PackageProjectUrl>https://github.com/AndiPexton/coverity-security-library-.net</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
