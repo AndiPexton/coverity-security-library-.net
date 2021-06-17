@@ -1,6 +1,6 @@
 # Coverity Security Library (.NET Standard Fork)
 
-Original .Net Repository for [Coverity.Security](https://github.com/coverity/coverity-security-library-.net/
+Original .Net Repository for [Coverity.Security](https://github.com/coverity/coverity-security-library-.net/)
 
 The Coverity Security Library (CSL) is a lightweight set of escaping routines for fixing cross-site scripting (XSS), SQL injection, and other security defects in ASP.NET web applications.
 
