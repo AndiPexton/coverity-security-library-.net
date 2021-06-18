@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <Copyright>Copyright (c) 2012-2015, Coverity, Inc.</Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>coverity.png</PackageIcon>
@@ -10,7 +10,7 @@
     <Authors>Andi Pexton</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Description>Coverity Security Library (.NET Standard 2.1 Version)
+    <Description>Coverity Security Library (.NET Standard Version)
 
 The Coverity Security Library (CSL) is a lightweight set of escaping routines for fixing cross-site scripting (XSS), SQL injection, and other security defects in ASP.NET web applications.
 
@@ -20,6 +20,8 @@ To contact the Coverity Security Research Labs (SRL), please email us at &lt;srl
     <Product>Coverity Security Library</Product>
     <PackageProjectUrl>https://github.com/AndiPexton/coverity-security-library-.net</PackageProjectUrl>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>Dropped to .NET Standard 1.3 for better availability</PackageReleaseNotes>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
